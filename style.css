@@ -1,0 +1,59 @@
+h1 {
+    font-family: monospace;
+    font-size: 300%;
+    color: indianred;
+}
+
+p {
+    font-family: courier;
+    font-size: 160%;
+    color: hotpink;
+}
+
+body {
+    text-align: center;
+    background-color: pink;
+}
+
+.menu {
+    list-style: none;
+    float: right;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+}
+
+#block {
+    border-radius: 175px;
+    height: 400;
+}
+
+section {
+    background-color: white;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+img {
+    height: 150px;
+    border-width: 30px;
+    border-color: black;
+}
+
+img {
+    transition: transform .2s;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
+ul {
+    position: fixed;
+}
+
+h2 {
+    color: indianred;
+}
